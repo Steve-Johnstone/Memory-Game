@@ -35,7 +35,7 @@ createBoard = function(){
         cardDisplay.classList.add("is-child")
         cardDisplay.classList.add("box")
         cardDisplay.classList.add("tile")
-        cardDisplay.classList.add("is-2")
+        cardDisplay.classList.add("is-3")
         document.getElementById('game-board').appendChild(cardDisplay)
     }
 }
