@@ -31,6 +31,11 @@ createBoard = function(){
         cardDisplay.setAttribute ('src', 'images/back.png')
         cardDisplay.setAttribute ('id', i)
         cardDisplay.addEventListener ('click', turnCard)
+        cardDisplay.classList.add("tile")
+        cardDisplay.classList.add("is-child")
+        cardDisplay.classList.add("box")
+        cardDisplay.classList.add("tile")
+        cardDisplay.classList.add("is-2")
         document.getElementById('game-board').appendChild(cardDisplay)
     }
 }
